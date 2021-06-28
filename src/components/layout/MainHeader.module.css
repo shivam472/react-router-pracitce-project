@@ -1,0 +1,36 @@
+.header {
+  background-color: #34a0a4;
+  font-size: large;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-links h1 {
+  padding: 2rem;
+  color: #fff;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+}
+.header li {
+  list-style: none;
+  padding: 2rem;
+  padding-top: 2.4rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: #d3d2d2;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: white;
+}
